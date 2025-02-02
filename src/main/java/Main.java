@@ -13,7 +13,6 @@ public class Main {
         displayCalendarItemDetails(meeting);
         displayCalendarItemDetails(task);
         displayCalendarItemDetails(contract);
-        System.out.println("Hello world!");
     }
 
     // Метод для вывода деталей CalendarItem
