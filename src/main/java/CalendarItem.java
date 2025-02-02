@@ -2,11 +2,11 @@ import java.util.Date;
 
 public abstract class CalendarItem {
     private Date date;
-    private String name;
+    private String title;
 
     public CalendarItem(Date date, String title) {
         this.date = date;
-        this.name = title;
+        this.title = title;
     }
 
     public Date getDate() {
@@ -18,11 +18,11 @@ public abstract class CalendarItem {
     }
 
     public String getTitle() {
-        return name;
+        return title;
     }
 
     public void setTitle(String title) {
-        this.name = title;
+        this.title = title;
     }
 
     public abstract void displayDetails();
