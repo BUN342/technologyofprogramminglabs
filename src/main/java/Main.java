@@ -12,7 +12,7 @@ public class Main {
         // Выводим детали
         displayCalendarItemDetails(meeting);
         displayCalendarItemDetails(task);
-        displayCalendarItemDetails(contract);
+        //displayCalendarItemDetails(contract);
     }
 
     // Метод для вывода деталей CalendarItem
